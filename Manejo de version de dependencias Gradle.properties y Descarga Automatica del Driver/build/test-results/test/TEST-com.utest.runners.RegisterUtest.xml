@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.utest.runners.RegisterUtest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-09T21:22:04" hostname="SARLIX" time="19.63">
+  <properties/>
+  <testcase name="open the page utest and register" classname="com.utest.runners.RegisterUtest" time="19.63"/>
+  <system-out><![CDATA[16:22:04.221 [Test worker] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/57315/Desktop/Proyectos/Manejo%20de%20version%20de%20dependencias%20Gradle.properties%20y%20Descarga%20Automatica%20del%20Driver/src/test/resources/features/registerUtest.feature
+16:22:04.278 [Test worker] INFO   - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+16:22:04.282 [Test worker] INFO   - Test Suite Started: register on utest
+16:22:04.306 [Test worker] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/57315/Desktop/Proyectos/Manejo%20de%20version%20de%20dependencias%20Gradle.properties%20y%20Descarga%20Automatica%20del%20Driver/src/test/resources/features/registerUtest.feature
+16:22:04.310 [Test worker] INFO   - Test Suite Started: register on utest
+
+Scenario: open the page utest and register                                   ?[90m# src/test/resources/features/registerUtest.feature:3?[0m
+16:22:04.380 [Test worker] INFO  i.c.core.plugin.SerenityReporter - Running feature from file:///C:/Users/57315/Desktop/Proyectos/Manejo%20de%20version%20de%20dependencias%20Gradle.properties%20y%20Descarga%20Automatica%20del%20Driver/src/test/resources/features/registerUtest.feature
+16:22:04.398 [Test worker] INFO   - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+open the page utest and register(register-on-utest;open-the-page-utest-and-register)
+--------------------------------------------------------------------------------
+16:22:04.798 [Test worker] INFO  n.s.c.w.d.ChromeDriverProvider - Using automatically driver download
+16:22:06.193 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+16:22:06.199 [Test worker] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\57315\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+  ?[32mGiven ?[0m?[32mthat the ?[0m?[32m?[1m'user'?[0m?[32m accesses the Utest page?[0m                              ?[90m# com.utest.stepdefinitions.RegisterUtestStepDefinitions.thatTheAccessesTheUtestPage(java.lang.String)?[0m
+  ?[32mWhen ?[0m?[32mthe user performs the registration process?[0m                            ?[90m# com.utest.stepdefinitions.RegisterUtestStepDefinitions.theUserPerformsTheRegistrationProcess()?[0m
+  ?[32mThen ?[0m?[32mregistration is successfully asserted with the Complete setup button.?[0m ?[90m# com.utest.stepdefinitions.RegisterUtestStepDefinitions.registrationIsSuccessfullyAssertedWithTheCompleteSetupButton()?[0m
+16:22:23.712 [Test worker] INFO   - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+open the page utest and register
+----------------------------------------------------------------------
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 106.0.5249.61 (511755355844955cd3e264779baf0dd38212a4d0-refs/branch-heads/5249@{#569}) on port 51884
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+oct. 09, 2022 4:22:11 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+oct. 09, 2022 4:22:11 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 106, so returning the closest version found: a no-op implementation
+oct. 09, 2022 4:22:11 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 106.
+oct. 09, 2022 4:22:11 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Cleaning up unclosed ZipFile for archive C:\Users\57315\Desktop\Proyectos\Manejo de version de dependencias Gradle.properties y Descarga Automatica del Driver\src\test\resources\documents\Data.xlsx
+]]></system-err>
+</testsuite>
